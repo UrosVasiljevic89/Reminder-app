@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<title>My Reminder</title>
+	<meta name="robots" content="noindex,nofollow">
+	<meta name="googlebot" content="noindex,nofollow">
+	<link href="icons/icon-reminder.png" rel="icon" />
+
+	<link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+	<script type="text/javascript" src="js/libs/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<div class="page-wrap">
+		<!-- header -->
+		<header class="header">
+			<div class="wrap">
+				<span class="btn-icon">
+					<img class="icon icon-plus js-modal-init" src="icons/icon-plus.svg" alt="Add New Item">
+				</span>
+				<div class="header-blockquote">
+					<h1 class="header-quote" id="header-quote">Happiness is good health and a bad memory</h1>
+					<div class="header-cite" id="quote-author">- Ingrid Bergman</div>
+				</div>
+			</div>
+			<div class="header-inner">
+				<div class="wrap">
+					<div class="date-wrap">
+						<img class="icon" src="icons/icon-calendar.svg" alt="Calendar">
+						<time id="todaysDate">02 / 08 / 2018</time>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="main" id="main">
+
+			<div class="selectForm">
+				<select name="userSelectTask" id="userTasks" onchange="loadContent()">
+					<option value="all">All Users</option>
+					<option value="user1">User 1</option>
+					<option value="user2">User 2</option>
+					<option value="user3">User 3</option>
+					<option value="user4">User 4</option>
+					
+				  </select>
+			</div>
+
+			<div class="wrap" id="wrap">
+
+				
+
+			</div>
+		</main>
+
+		<!-- modal window -->
+		<div class="modal-wrap js-modal">
+			<div class="modal js-modal-inner">
+				<h2>Create a task today:</h2>
+				<form action="">
+					<div class="field-wrap">
+						<select name="userSelect" id="users">
+							<option value="user1">User 1</option>
+							<option value="user2">User 2</option>
+							<option value="user3">User 3</option>
+							<option value="user4">User 4</option>
+						  </select>
+						<input class="field" id="txtTitle" type="text" placeholder="Title.." required>
+
+					</div>
+					<div class="btn-wrap align-right">
+						<input id="btnCreate" class="btn" type="button" value="Create" onclick="create()">
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<!-- footer -->
+		<footer class="footer">
+			<div class="wrap">
+				<span class="copy">&copy; JJZ</span>
+			</div>
+		</footer>
+	</div>
+
+	
+
+	<script>loadContent()</script>
+	<script>todayDate()</script>
+	<script>randomQuotes()</script>
+	<script>filterTask()</script>
+</body>
+
+</html>

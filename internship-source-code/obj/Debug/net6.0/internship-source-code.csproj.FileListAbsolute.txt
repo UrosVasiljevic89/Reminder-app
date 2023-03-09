@@ -1,0 +1,5 @@
+E:\JJZ\vegaIT\C#\TODO\internship-source-code\obj\Debug\net6.0\internship-source-code.csproj.AssemblyReference.cache
+E:\JJZ\vegaIT\C#\TODO\internship-source-code\obj\Debug\net6.0\internship-source-code.GeneratedMSBuildEditorConfig.editorconfig
+E:\JJZ\vegaIT\C#\TODO\internship-source-code\obj\Debug\net6.0\internship-source-code.AssemblyInfoInputs.cache
+E:\JJZ\vegaIT\C#\TODO\internship-source-code\obj\Debug\net6.0\internship-source-code.AssemblyInfo.cs
+E:\JJZ\vegaIT\C#\TODO\internship-source-code\obj\Debug\net6.0\internship-source-code.csproj.CoreCompileInputs.cache
